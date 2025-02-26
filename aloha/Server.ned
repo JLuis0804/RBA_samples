@@ -27,7 +27,7 @@ simple Server
 
         @statistic[serverChannelState](source="channelState";title="Channel state";enum="IDLE=0,TRANSMISSION=1,COLLISION=2";record=vector);
         @statistic[receiveBegin](source="receiveBegin"; record=vector?; interpolationmode=sample-hold; title="receive begin");
-        @statistic[channelUtilization](source="timeavg(receive)"; record=last; interpolationmode=linear; title="channel utilization");
+        @statistic[channelUtilization](source="timeavg(receive)"; record=vector; interpolationmode=linear; title="channel utilization");
         @statistic[collisionMultiplicity](source=collision; record=vector?,histogram; title="collision multiplicity");
         @statistic[collisionLength](record=vector?,histogram,mean,sum,max; title="collision length");
         @statistic[receivedFrames](source="sum(receive)"; record=last; title="received frames");
