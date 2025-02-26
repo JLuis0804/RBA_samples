@@ -1,0 +1,1 @@
+-O0 -Wall -glldb -fstandalone-debug   -MMD -MP -MF .d    -isystem /opt/mingw64/include -Wno-deprecated-register -Wno-unused-function -fno-omit-frame-pointer  -DOMNETPPLIBS_IMPORT  -I../queueinglib -I/c/Users/josel/OneDrive/Escritorio/OMNET++/omnetpp-6.1/include
