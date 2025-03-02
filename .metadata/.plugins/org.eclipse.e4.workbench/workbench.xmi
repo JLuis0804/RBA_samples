@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="ASCII"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="__VrScPA3Ee-AO4a55-CLyw" elementId="org.eclipse.e4.legacy.ide.application" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="__VrScfA3Ee-AO4a55-CLyw" bindingContexts="__VrSevA3Ee-AO4a55-CLyw">
-  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAAnalisisLong.anf&quot; tooltip=&quot;aloha/results/RBAAnalisisLong.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAnalisisLong.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Server.ned&quot; tooltip=&quot;aloha/Server.ned&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Server.ned&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAAnalisisShort.anf&quot; tooltip=&quot;aloha/results/RBAAnalisisShort.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAnalisisShort.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;graficas_RBAAloha.anf&quot; tooltip=&quot;aloha/results/graficas_RBAAloha.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/graficas_RBAAloha.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.inifile.editor.editors.InifileEditor&quot; name=&quot;omnetpp.ini&quot; tooltip=&quot;aloha/omnetpp.ini&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/omnetpp.ini&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Host.cc&quot; tooltip=&quot;aloha/Host.cc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Host.cc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
+  <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAExperiment.anf&quot; tooltip=&quot;aloha/results/RBAExperiment.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAExperiment.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;graficas_RBAAloha.anf&quot; tooltip=&quot;aloha/results/graficas_RBAAloha.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/graficas_RBAAloha.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAAnalisisLong.anf&quot; tooltip=&quot;aloha/results/RBAAnalisisLong.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAnalisisLong.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ResultFileOpener.sca&quot; name=&quot;RBAAloha-#0.sca&quot; tooltip=&quot;aloha/results/RBAAloha-#0.sca&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAloha-#0.sca&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;comparacion_simulaciones.png&quot; tooltip=&quot;aloha/results/comparacion_simulaciones.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/comparacion_simulaciones.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ResultFileOpener.sca&quot; name=&quot;RBAAloha-10s-#1.sca&quot; tooltip=&quot;aloha/results/RBAAloha-10s-#1.sca&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAloha-10s-#1.sca&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAAnalisisShort.anf&quot; tooltip=&quot;aloha/results/RBAAnalisisShort.anf&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/RBAAnalisisShort.anf&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;collisionlegth_simulacion_1.png&quot; tooltip=&quot;aloha/results/collisionlegth_simulacion_1.png&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/results/collisionlegth_simulacion_1.png&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Server.h&quot; tooltip=&quot;aloha/Server.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Server.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Host.h&quot; tooltip=&quot;aloha/Host.h&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Host.h&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Server.cc&quot; tooltip=&quot;aloha/Server.cc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Server.cc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Server.ned&quot; tooltip=&quot;aloha/Server.ned&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Server.ned&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Host.cc&quot; tooltip=&quot;aloha/Host.cc&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Host.cc&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Host.ned&quot; tooltip=&quot;aloha/Host.ned&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Host.ned&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Aloha.ned&quot; tooltip=&quot;aloha/Aloha.ned&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/Aloha.ned&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;file factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; id=&quot;org.omnetpp.inifile.editor.editors.InifileEditor&quot; name=&quot;omnetpp.ini&quot; tooltip=&quot;aloha/omnetpp.ini&quot;>&#xD;&#xA;&lt;persistable path=&quot;/aloha/omnetpp.ini&quot;/>&#xD;&#xA;&lt;/file>&#xD;&#xA;&lt;/mruList>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="__VrScfA3Ee-AO4a55-CLyw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="__wiCcvA3Ee-AO4a55-CLyw" x="952" y="0" width="976" height="1028">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="__VrScfA3Ee-AO4a55-CLyw" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.ui.workbench" selectedElement="__wiCcvA3Ee-AO4a55-CLyw" x="-8" y="0" width="976" height="1028">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -59,7 +59,7 @@
           <tags>persp.perspSC:org.eclipse.ui.resourcePerspective</tags>
           <tags>persp.perspSC:org.omnetpp.main.OmnetppPerspective</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="__-iCMfA3Ee-AO4a55-CLyw" selectedElement="__-iCOfA3Ee-AO4a55-CLyw" horizontal="true">
-            <children xsi:type="basic:PartSashContainer" xmi:id="__-iCMvA3Ee-AO4a55-CLyw" containerData="2500" selectedElement="__-iCM_A3Ee-AO4a55-CLyw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="__-iCMvA3Ee-AO4a55-CLyw" containerData="3163" selectedElement="__-iCM_A3Ee-AO4a55-CLyw">
               <children xsi:type="basic:PartStack" xmi:id="__-iCM_A3Ee-AO4a55-CLyw" elementId="left" containerData="5000" selectedElement="__-iCNPA3Ee-AO4a55-CLyw">
                 <tags>noFocus</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="__-iCNPA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="__-HLcPA3Ee-AO4a55-CLyw" closeable="true">
@@ -82,9 +82,9 @@
                 </children>
               </children>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="__-iCOfA3Ee-AO4a55-CLyw" containerData="7500" selectedElement="__-iCO_A3Ee-AO4a55-CLyw">
+            <children xsi:type="basic:PartSashContainer" xmi:id="__-iCOfA3Ee-AO4a55-CLyw" containerData="6837" selectedElement="__-iCOvA3Ee-AO4a55-CLyw">
               <children xsi:type="advanced:Placeholder" xmi:id="__-iCOvA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.editorss" containerData="7500" ref="__9v_EPA3Ee-AO4a55-CLyw"/>
-              <children xsi:type="basic:PartStack" xmi:id="__-iCO_A3Ee-AO4a55-CLyw" elementId="bottom" containerData="2500" selectedElement="__-iCQ_A3Ee-AO4a55-CLyw">
+              <children xsi:type="basic:PartStack" xmi:id="__-iCO_A3Ee-AO4a55-CLyw" elementId="bottom" containerData="2500" selectedElement="__-iCPvA3Ee-AO4a55-CLyw">
                 <children xsi:type="advanced:Placeholder" xmi:id="__-iCPPA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.views.ProblemView" ref="__-Lc4PA3Ee-AO4a55-CLyw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -114,7 +114,7 @@
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
-                <children xsi:type="advanced:Placeholder" xmi:id="__-iCQ_A3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.console.ConsoleView" ref="__-Q8cfA3Ee-AO4a55-CLyw" closeable="true">
+                <children xsi:type="advanced:Placeholder" xmi:id="__-iCQ_A3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.console.ConsoleView" toBeRendered="false" ref="__-Q8cfA3Ee-AO4a55-CLyw" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
                 </children>
@@ -167,7 +167,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="__9v_EPA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.editorss" selectedElement="__9v_EfA3Ee-AO4a55-CLyw">
-      <children xsi:type="basic:PartStack" xmi:id="__9v_EfA3Ee-AO4a55-CLyw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_VAf-8PKPEe-TN4NCN9GRzQ">
+      <children xsi:type="basic:PartStack" xmi:id="__9v_EfA3Ee-AO4a55-CLyw" elementId="org.eclipse.e4.primaryDataStack" selectedElement="_DdljsPZyEe-LqtleyNOPFw">
         <tags>EditorStack</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>active</tags>
@@ -183,14 +183,68 @@
           <tags>removeOnHide</tags>
           <tags>org.omnetpp.ned.editor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_0Kx_wPKGEe-TN4NCN9GRzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="graficas_RBAAloha.anf" iconURI="platform:/plugin/org.omnetpp.scave/icons/scavefile.png" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_XVlZgPRcEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Aloha.ned" iconURI="platform:/plugin/org.omnetpp.ned.editor/icons/nedfile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Aloha.ned&quot; partName=&quot;Aloha.ned&quot; title=&quot;Aloha.ned&quot; tooltip=&quot;aloha/Aloha.ned&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Aloha.ned&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.omnetpp.ned.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="__0-5IPRfEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Host.ned" iconURI="platform:/plugin/org.omnetpp.ned.editor/icons/nedfile.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.omnetpp.ned.editor&quot; name=&quot;Host.ned&quot; partName=&quot;Host.ned&quot; title=&quot;Host.ned&quot; tooltip=&quot;aloha/Host.ned&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Host.ned&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.omnetpp.ned.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_oTYTMPRjEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Host.cc" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Host.cc&quot; partName=&quot;Host.cc&quot; title=&quot;Host.cc&quot; tooltip=&quot;aloha/Host.cc&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Host.cc&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;8559&quot; selectionTopPixel=&quot;2607&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_K6rPoPRqEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Server.cc" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Server.cc&quot; partName=&quot;Server.cc&quot; title=&quot;Server.cc&quot; tooltip=&quot;aloha/Server.cc&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Server.cc&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;1023&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_An3toPRrEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Host.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Host.h&quot; partName=&quot;Host.h&quot; title=&quot;Host.h&quot; tooltip=&quot;aloha/Host.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Host.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1729&quot; selectionTopPixel=&quot;818&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_B06IgPRrEe-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Server.h" iconURI="platform:/plugin/org.eclipse.cdt.ui/icons/obj16/c_file_obj.gif" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.cdt.ui.editor.CEditor&quot; name=&quot;Server.h&quot; partName=&quot;Server.h&quot; title=&quot;Server.h&quot; tooltip=&quot;aloha/Server.h&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/Server.h&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;0&quot; selectionTopPixel=&quot;4&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.cdt.ui.editor.CEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_lVWWoPR1Ee-xDfW13KNBYg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;comparacion_simulaciones.png&quot; partName=&quot;C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png&quot; title=&quot;C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png&quot; tooltip=&quot;aloha/results/comparacion_simulaciones.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/results/comparacion_simulaciones.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_C8iEoPR7Ee-8ZoMxrAeq2Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png" iconURI="platform:/plugin/org.eclipse.ui.browser/icons/obj16/internal_browser.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.ui.browser.editor&quot; name=&quot;comparacion_simulaciones.png&quot; partName=&quot;C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png&quot; title=&quot;C:\Users\josel\OneDrive\Escritorio\OMNET++\omnetpp-6.1\samples\aloha\results\comparacion_simulaciones.png&quot; tooltip=&quot;aloha/results/comparacion_simulaciones.png&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/results/comparacion_simulaciones.png&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.eclipse.ui.browser.editor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_yyUYcPR9Ee-8ZoMxrAeq2Q" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="graficas_RBAAloha.anf" iconURI="platform:/plugin/org.omnetpp.scave/icons/scavefile.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;graficas_RBAAloha.anf&quot; partName=&quot;graficas_RBAAloha.anf&quot; title=&quot;graficas_RBAAloha.anf&quot; tooltip=&quot;aloha/results/graficas_RBAAloha.anf&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/results/graficas_RBAAloha.anf&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.omnetpp.scave.editors.ScaveEditor</tags>
         </children>
-        <children xsi:type="basic:Part" xmi:id="_VAf-8PKPEe-TN4NCN9GRzQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RBAAnalisisLong.anf" iconURI="platform:/plugin/org.omnetpp.scave/icons/scavefile.png" closeable="true">
+        <children xsi:type="basic:Part" xmi:id="_DtNkgPVIEe-1xOzAkOoNLQ" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RBAAnalisisLong.anf" iconURI="platform:/plugin/org.omnetpp.scave/icons/scavefile.png" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAAnalisisLong.anf&quot; partName=&quot;RBAAnalisisLong.anf&quot; title=&quot;RBAAnalisisLong.anf&quot; tooltip=&quot;aloha/results/RBAAnalisisLong.anf&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/results/RBAAnalisisLong.anf&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+          <tags>org.omnetpp.scave.editors.ScaveEditor</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_DdljsPZyEe-LqtleyNOPFw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RBAExperiment.anf" iconURI="platform:/plugin/org.omnetpp.scave/icons/scavefile.png" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.omnetpp.scave.editors.ScaveEditor&quot; name=&quot;RBAExperiment.anf&quot; partName=&quot;RBAExperiment.anf&quot; title=&quot;RBAExperiment.anf&quot; tooltip=&quot;aloha/results/RBAExperiment.anf&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/aloha/results/RBAExperiment.anf&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
           <tags>org.omnetpp.scave.editors.ScaveEditor</tags>
@@ -315,7 +369,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3T_4PA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2b5DkPKCEe-TN4NCN9GRzQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="__WtNN_A3Ee-AO4a55-CLyw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vKtpUPbSEe-36M0oH-Rz6g" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="__WtNN_A3Ee-AO4a55-CLyw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3Um8PA3Ee-AO4a55-CLyw" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -323,8 +377,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3Um8vA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2b6RsPKCEe-TN4NCN9GRzQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="__WsmSvA3Ee-AO4a55-CLyw"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2b6RsfKCEe-TN4NCN9GRzQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="__WvCi_A3Ee-AO4a55-CLyw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vKwFkPbSEe-36M0oH-Rz6g" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="__WsmSvA3Ee-AO4a55-CLyw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vKwFkfbSEe-36M0oH-Rz6g" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="__WvCi_A3Ee-AO4a55-CLyw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3Um8_A3Ee-AO4a55-CLyw" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -345,7 +399,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3VOAvA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_2b6Rt_KCEe-TN4NCN9GRzQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="__WqJ6_A3Ee-AO4a55-CLyw"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_vKx6wPbSEe-36M0oH-Rz6g" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="__WqJ6_A3Ee-AO4a55-CLyw"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="__3VOA_A3Ee-AO4a55-CLyw" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2293,7 +2347,7 @@
   <addons xmi:id="__VrShvA3Ee-AO4a55-CLyw" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="__VrSh_A3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="__V8_QPA3Ee-AO4a55-CLyw" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_IYS0IKimEeS11vbz3f9ezw" elementId="org.eclipse.ui.ide.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_uxnz4fbSEe-36M0oH-Rz6g" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <categories xmi:id="__WcugPA3Ee-AO4a55-CLyw" elementId="org.eclipse.team.ui.category.team" name="Version control (Team)" description="Actions that apply when working with a version control system"/>
   <categories xmi:id="__WcugfA3Ee-AO4a55-CLyw" elementId="org.eclipse.ui.category.views" name="Views" description="Commands for opening views"/>

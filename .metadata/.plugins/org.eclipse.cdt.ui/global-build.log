@@ -1846,3 +1846,12 @@ make: Nothing to be done for 'all'.
 10:23:25 **** Incremental Build of configuration release for project aloha ****
 make MODE=release all 
 make: Nothing to be done for 'all'.
+20:35:57 **** Build of configuration release for project aloha ****
+make MODE=release all 
+Creating executable: out/clang-release//aloha.exe
+20:36:09 **** Incremental Build of configuration release for project aloha ****
+make MODE=release all 
+make: Nothing to be done for 'all'.
+20:37:38 **** Incremental Build of configuration release for project aloha ****
+make MODE=release all 
+make: Nothing to be done for 'all'.

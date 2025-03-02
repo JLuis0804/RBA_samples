@@ -1,0 +1,143 @@
+file 3003004 1740815340                                         
+version 3
+run PureAlohaExperiment-10-20250301-08:48:59-5956
+attr configname PureAlohaExperiment
+attr datetime 20250301-08:48:59
+attr datetimef 20250301-084859
+attr experiment PureAlohaExperiment
+attr inifile omnetpp.ini
+attr iterationvars "$numHosts=15, $iaMean=4"
+attr iterationvarsd numHosts=15/iaMean=4
+attr iterationvarsf numHosts=15,iaMean=4-
+attr measurement "$numHosts=15, $iaMean=4"
+attr network Aloha
+attr processid 5956
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 10
+attr seedset 10
+itervar iaMean 4
+itervar numHosts 15
+config description "Channel utilization in the function of packet generation frequency"
+config repeat 1
+config sim-time-limit 90min
+config Aloha.numHosts 15
+config Aloha.host[*].iaTime exponential(4s)
+config network Aloha
+config simtime-resolution ps
+config Aloha.numHosts 20
+config Aloha.slotTime 0s
+config Aloha.txRate 9.6kbps
+config Aloha.host[*].pkLenBits 952b
+config **.x "uniform(0m, 1000m)"
+config **.y "uniform(0m, 1000m)"
+config **.animationHoldTimeOnCollision 0s
+config **.idleAnimationSpeed 1
+config **.transmissionEdgeAnimationSpeed 1e-6
+config **.midTransmissionAnimationSpeed 1e-1
+
+vector 0 Aloha.server serverChannelState:vector ETV
+attr enum IDLE=0,TRANSMISSION=1,COLLISION=2
+attr recordingmode vector
+attr source channelState
+attr title "Channel state"
+vector 1 Aloha.server channelUtilization:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source timeavg(receive)
+attr title "channel utilization"
+vector 2 Aloha.host[0] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 3 Aloha.host[1] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 4 Aloha.host[2] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 5 Aloha.host[3] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 6 Aloha.host[4] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 7 Aloha.host[5] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 8 Aloha.host[6] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 9 Aloha.host[7] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 10 Aloha.host[8] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 11 Aloha.host[9] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 12 Aloha.host[10] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 13 Aloha.host[11] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 14 Aloha.host[12] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 15 Aloha.host[13] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 16 Aloha.host[14] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+0	3767 934505 0 71202 0 5177.805540854535 32768 0 2 24886 36222
+0	938272 40177 71204 74205 5177.904707521202 5399.90119342789 1390 0 2 1029 1475
+1	978449 863151 18 74205 1.869411599477 5399.90119342789 19876 0 0.20610389243063 3607.7296645305 655.45670665455
+2	1841600 77533 0 74173 0 5397.626964092598 2715 0 1 1357 1357
+3	1919133 78738 0 74181 0 5398.150378743491 2761 0 1 1380 1380
+4	1997871 74867 0 74200 0 5399.173862529148 2627 0 1 1313 1313
+5	2072738 73386 0 74166 0 5397.378292984241 2573 0 1 1286 1286
+6	2146124 74442 0 74165 0 5397.29574907601 2609 0 1 1304 1304
+7	2220566 78340 0 74118 0 5394.01419423789 2747 0 1 1373 1373
+8	2298906 74622 0 73905 0 5377.472641175224 2619 0 1 1309 1309
+9	2373528 80639 0 74204 0 5399.901191415714 2827 0 1 1413 1413
+10	2454167 80368 0 74195 0 5398.948577881643 2721 0 1 1360 1360
+11	2534535 79317 0 74185 0 5398.268699149336 2687 0 1 1343 1343
+12	2613852 78140 0 74159 0 5397.192849935479 2647 0 1 1323 1323
+13	2691992 78545 0 74172 0 5397.621881933631 2659 0 1 1329 1329
+14	2770537 73462 0 74143 0 5395.667368944437 2489 0 1 1244 1244
+15	2843999 79991 0 74196 0 5399.035415123149 2709 0 1 1354 1354
+16	2923990 79012 0 74032 0 5388.06659369014 2673 0 1 1336 1336
+

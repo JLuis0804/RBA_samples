@@ -1,0 +1,169 @@
+file 13230 1740598703                                           
+version 3
+run RBAAloha-0-20250226-20:38:17-1444
+attr configname RBAAloha
+attr datetime 20250226-20:38:17
+attr datetimef 20250226-203817
+attr experiment RBAAloha
+attr inifile omnetpp.ini
+attr iterationvars $0=10s
+attr iterationvarsd 10s
+attr iterationvarsf 10s-
+attr measurement $0=10s
+attr network Aloha
+attr processid 1444
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config description "pure Aloha, overloaded"
+config Aloha.host[*].iaTime exponential(2s)
+config repeat 3
+config sim-time-limit 10s
+config network Aloha
+config simtime-resolution ps
+config Aloha.numHosts 20
+config Aloha.slotTime 0s
+config Aloha.txRate 9.6kbps
+config Aloha.host[*].pkLenBits 952b
+config **.x "uniform(0m, 1000m)"
+config **.y "uniform(0m, 1000m)"
+config **.animationHoldTimeOnCollision 0s
+config **.idleAnimationSpeed 1
+config **.transmissionEdgeAnimationSpeed 1e-6
+config **.midTransmissionAnimationSpeed 1e-1
+
+vector 0 Aloha.server serverChannelState:vector ETV
+attr enum IDLE=0,TRANSMISSION=1,COLLISION=2
+attr recordingmode vector
+attr source channelState
+attr title "Channel state"
+vector 1 Aloha.server channelUtilization:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source timeavg(receive)
+attr title "channel utilization"
+vector 2 Aloha.host[0] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 3 Aloha.host[1] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 4 Aloha.host[2] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 5 Aloha.host[3] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 6 Aloha.host[4] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 7 Aloha.host[5] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 8 Aloha.host[6] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 9 Aloha.host[7] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 10 Aloha.host[8] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 11 Aloha.host[9] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 12 Aloha.host[10] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 13 Aloha.host[11] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 14 Aloha.host[12] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 15 Aloha.host[13] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 16 Aloha.host[14] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 17 Aloha.host[15] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 18 Aloha.host[16] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 19 Aloha.host[17] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 20 Aloha.host[18] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 21 Aloha.host[19] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+0	4293 3189 0 333 0 9.900800129369 136 0 2 162 288
+1	7482 769 14 333 0.412408051882 9.900800129369 20 0 0.27788333207726 2.0927544572899 0.28426360007655
+2	8251 199 0 250 0 6.97803952182 9 0 1 4 4
+3	8450 248 0 316 0 9.403688291588 11 0 1 5 5
+4	8698 437 0 328 0 9.787981099177 19 0 1 9 9
+5	9135 290 0 309 0 9.058939922815 13 0 1 6 6
+6	9425 198 0 321 0 9.630806898335 9 0 1 4 4
+7	9623 246 0 264 0 7.289089612584 11 0 1 5 5
+8	9869 194 0 239 0 6.772703951876 9 0 1 4 4
+9	10063 247 0 290 0 8.505064709821 11 0 1 5 5
+10	10310 257 0 172 0 5.059210471398 11 0 1 5 5
+11	10567 108 0 150 0 4.233253632818 5 0 1 2 2
+12	10675 149 0 275 0 7.580954249922 7 0 1 3 3
+13	10824 154 0 90 0 3.025405867102 7 0 1 3 3
+14	10978 210 0 305 0 8.988043107662 9 0 1 4 4
+15	11188 556 0 317 0 9.456541888244 23 0 1 11 11
+16	11744 358 0 332 0 9.900798578338 15 0 1 7 7
+17	12102 206 0 257 0 7.138265705766 9 0 1 4 4
+18	12308 204 0 145 0 4.188266033872 9 0 1 4 4
+19	12512 156 0 225 0 6.562989131383 7 0 1 3 3
+20	12668 156 0 263 0 7.245432238919 7 0 1 3 3
+21	12824 404 0 327 0 9.757293800654 17 0 1 8 8
+
