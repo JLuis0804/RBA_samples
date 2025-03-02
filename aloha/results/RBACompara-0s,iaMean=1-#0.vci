@@ -1,0 +1,175 @@
+file 12705329 1740902441                                        
+version 3
+run RBACompara-1-20250302-09:00:40-5824
+attr configname RBACompara
+attr datetime 20250302-09:00:40
+attr datetimef 20250302-090040
+attr experiment RBACompara
+attr inifile omnetpp.ini
+attr iterationvars "$0=0s, $iaMean=1"
+attr iterationvarsd 0s/iaMean=1
+attr iterationvarsf 0s,iaMean=1-
+attr measurement "$0=0s, $iaMean=1"
+attr network Aloha
+attr processid 5824
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 1
+attr seedset 1
+itervar iaMean 1
+config repeat 1
+config sim-time-limit 2h
+config Aloha.slotTime 0s
+config Aloha.numHosts 20
+config Aloha.host[*].iaTime exponential(1s)
+config network Aloha
+config simtime-resolution ps
+config Aloha.numHosts 20
+config Aloha.slotTime 0s
+config Aloha.txRate 9.6kbps
+config Aloha.host[*].pkLenBits 952b
+config **.x "uniform(0m, 1000m)"
+config **.y "uniform(0m, 1000m)"
+config **.animationHoldTimeOnCollision 0s
+config **.idleAnimationSpeed 1
+config **.transmissionEdgeAnimationSpeed 1e-6
+config **.midTransmissionAnimationSpeed 1e-1
+
+vector 0 Aloha.server serverChannelState:vector ETV
+attr enum IDLE=0,TRANSMISSION=1,COLLISION=2
+attr recordingmode vector
+attr source channelState
+attr title "Channel state"
+vector 1 Aloha.server channelUtilization:vector ETV
+attr interpolationmode linear
+attr recordingmode vector
+attr source timeavg(receive)
+attr title "channel utilization"
+vector 2 Aloha.host[0] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 3 Aloha.host[1] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 4 Aloha.host[2] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 5 Aloha.host[3] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 6 Aloha.host[4] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 7 Aloha.host[5] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 8 Aloha.host[6] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 9 Aloha.host[7] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 10 Aloha.host[8] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 11 Aloha.host[9] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 12 Aloha.host[10] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 13 Aloha.host[11] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 14 Aloha.host[12] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 15 Aloha.host[13] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 16 Aloha.host[14] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 17 Aloha.host[15] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 18 Aloha.host[16] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 19 Aloha.host[17] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 20 Aloha.host[18] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+vector 21 Aloha.host[19] radioState:vector ETV
+attr enum IDLE=0,TRANSMIT=1
+attr recordingmode vector
+attr source state
+attr title "Radio state"
+0	4363 918944 0 89128 0 1546.135232459692 32768 0 2 51781 98977
+0	923307 975411 89134 178143 1546.234399126359 3092.855507637872 32768 0 2 51601 98557
+0	1898718 979325 178147 267189 3092.869577814124 4633.204153451746 32768 0 2 51646 98662
+0	2878043 979407 267192 356461 4633.275153454961 6172.937777470563 32768 0 2 51991 99467
+0	3857450 650147 356464 415543 6172.99696372068 7199.995745002441 21757 0 2 34229 65363
+1	4507597 298718 30 415467 0.505379690155 7198.690719095973 6586 0 0.16403484289989 296.30255124073 13.368430123846
+2	4806315 386911 0 415494 0 7199.066321157843 13133 0 1 6566 6566
+3	5193226 390872 0 415412 0 7197.540697405383 13265 0 1 6632 6632
+4	5584098 386888 0 415544 0 7199.998655228869 13131 0 1 6565 6565
+5	5970986 386873 0 415514 0 7199.501926255203 13133 0 1 6566 6566
+6	6357859 390901 0 415415 0 7197.584448413933 13271 0 1 6635 6635
+7	6748760 383733 0 415497 0 7199.143254125339 13019 0 1 6509 6509
+8	7132493 393295 0 415499 0 7199.16315856616 13341 0 1 6670 6670
+9	7525788 383509 0 415527 0 7199.771034606496 13019 0 1 6509 6509
+10	7909297 399090 0 415503 0 7199.27665374468 13093 0 1 6546 6546
+11	8308387 396067 0 415540 0 7199.955814241266 13001 0 1 6500 6500
+12	8704454 396036 0 415515 0 7199.520212913317 13001 0 1 6500 6500
+13	9100490 401117 0 415542 0 7199.995743023967 13170 0 1 6585 6585
+14	9501607 401812 0 415530 0 7199.848832112749 13189 0 1 6594 6594
+15	9903419 401980 0 415422 0 7197.614277465499 13189 0 1 6594 6594
+16	10305399 398471 0 415477 0 7198.840457433389 13079 0 1 6539 6539
+17	10703870 393222 0 415541 0 7199.960911115639 12905 0 1 6452 6452
+18	11097092 403986 0 415539 0 7199.938562179779 13263 0 1 6631 6631
+19	11501078 398234 0 415486 0 7198.968728289495 13069 0 1 6534 6534
+20	11899312 404450 0 415524 0 7199.681103450164 13279 0 1 6639 6639
+21	12303762 401565 0 415537 0 7199.917181235855 13186 0 1 6593 6593
+
