@@ -1,8 +1,8 @@
 version 3
-run PureAlohaExperiment-8-20250301-08:48:59-5956
+run PureAlohaExperiment-8-20250306-09:40:45-5280
 attr configname PureAlohaExperiment
-attr datetime 20250301-08:48:59
-attr datetimef 20250301-084859
+attr datetime 20250306-09:40:45
+attr datetimef 20250306-094045
 attr experiment PureAlohaExperiment
 attr inifile omnetpp.ini
 attr iterationvars "$numHosts=15, $iaMean=2"
@@ -10,7 +10,7 @@ attr iterationvarsd numHosts=15/iaMean=2
 attr iterationvarsf numHosts=15,iaMean=2-
 attr measurement "$numHosts=15, $iaMean=2"
 attr network Aloha
-attr processid 5956
+attr processid 5280
 attr repetition 0
 attr replication #0
 attr resultdir results
@@ -190,6 +190,11 @@ scalar Aloha.server collidedFrames:last 29294
 attr recordingmode last
 attr source sum(collision)
 attr title "collided frames, last"
+scalar Aloha.server channelUtilMean:mean 0.49997405158545
+attr interpolationmode linear
+attr recordingmode mean
+attr source receive
+attr title "channel utilization mean, mean"
 scalar Aloha.server receivedFrames:last 9634
 attr recordingmode last
 attr source sum(receive)

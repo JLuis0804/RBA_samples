@@ -1,8 +1,8 @@
 version 3
-run PureAlohaExperiment-19-20250301-08:49:02-5956
+run PureAlohaExperiment-19-20250306-09:40:49-5280
 attr configname PureAlohaExperiment
-attr datetime 20250301-08:49:02
-attr datetimef 20250301-084902
+attr datetime 20250306-09:40:49
+attr datetimef 20250306-094049
 attr experiment PureAlohaExperiment
 attr inifile omnetpp.ini
 attr iterationvars "$numHosts=20, $iaMean=7"
@@ -10,7 +10,7 @@ attr iterationvarsd numHosts=20/iaMean=7
 attr iterationvarsf numHosts=20,iaMean=7-
 attr measurement "$numHosts=20, $iaMean=7"
 attr network Aloha
-attr processid 5956
+attr processid 5280
 attr repetition 0
 attr replication #0
 attr resultdir results
